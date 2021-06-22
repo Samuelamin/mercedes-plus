@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(244, 238, 226);
+}
+                                              /*navbar*/
+.flex-contianer{
+    position: sticky;
+    top: 0px;
+    margin-top: 10px;
+    z-index: 4;
+}
+
+.navbar{
+    background-color: rgba(223, 223, 223, 0.651);
+    transition: all 0.7s ease;
+    width: 1000px;
+}
+.navbar:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.img1{
+    width: 1022px;
+    z-index: 0;
+    
+}
+
+                                              /*models*/
+
+.row{
+    justify-content: space-between;
+    width: 900px;
+    align-items: center;
+}
+.card-title{
+    top: 0px;
+}
+.card{
+    top: -15px;
+    margin: -30px;
+    margin-top: 50px;
+    left: 70px;
+    width: 208px;
+
+}
+
+                                              /*footer*/
+
+.div3{
+    position: relative;
+    top: 100px;
+    display: flex;
+    background-color: #191919;
+    height: 272px;
+    width: 143%;
+    border-top: 12px solid white;
+   }
+  .link{
+    position: relative;
+    margin: 100px;
+    bottom: 24px;
+  }
+
+  .link a{
+      color: white;
+    position: relative;
+    transition: all 0.7s ease;
+  }
+   
+  .div3 a:hover{
+    color: red;
+    text-decoration: none;
+
+    font-size: 18px;
+  }
+
+  footer h3{
+    color: #fffcfc;
+    top: 186px;
+    left: 67px;
+    font-family: auto;
+    font-size: 41px;
+    position: relative;
+    z-index: 1;
+    transition: all 1s ease;
+  }
+
+  footer h3:hover{
+      color: rgb(173, 173, 169);
+  }
